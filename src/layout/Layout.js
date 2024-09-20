@@ -20,7 +20,7 @@ const Layout = ({ children }) => {
   return (
     <>
       {/* <Nav /> */}
-      <main>
+      <div className='m-5'>
         <Container>
           <Row className="h-100">
             {/* <SidebarMenu /> */}
@@ -29,9 +29,9 @@ const Layout = ({ children }) => {
             </Col>
           </Row>
         </Container>
-      </main>
+      </div>
       <Footer />
-      <RightButtons />
+      {/* <RightButtons /> */}
     </>
   );
 };
