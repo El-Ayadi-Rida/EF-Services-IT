@@ -11,7 +11,6 @@ const AccueilPage = () => {
   const title = 'Services IT par EtudeFaciles';
   const description = 'Cette section propose divers services informatiques pour accompagner les étudiants dans leur préparation au baccalauréat.';
 
-  useCustomLayout({ placement: MENU_PLACEMENT.Horizontal, layout: LAYOUT.Boxed });
 
   return (
     <>
